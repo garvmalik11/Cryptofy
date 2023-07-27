@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Mouse+Memoirs&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand&family=Roboto:wght@400;500&display=swap');
+
+body{
+    background-color: #00171f;
+    /* background: url("/assets/images/bg2+.jpg"); */
+    background-image: linear-gradient(to left bottom,rgb(226, 211, 237),rgb(38, 10, 57));
+    height: 1110px;
+    
+}
+
+.search_head{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: black;
+    text-shadow: 3px 3px 7px rgb(72, 4, 74);
+    font-weight: 400;
+}
+
+.search_container{
+    display: flex;
+    justify-content: center;
+}
+
+#searchbox{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-family: "montserrat";
+    border-radius: 1rem 0rem 0rem 1rem;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 2px 2px 6px black;
+    transition: all .3s ease 0s;
+}
+#searchbox:hover{
+    transform: scale(1.08);
+    box-shadow: 2px 2px 10px black;
+}
+#searchbutton{
+    padding: 1rem 2rem;
+    font-family: "montserrat";
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: none;
+    background-color: black;
+    color: wheat;
+    font-size: 1rem;
+    box-shadow: 2px 2px 6px black;
+    transition: all .3s ease 0s;
+}
+#searchbutton:hover{
+    transform: scale(1.08);
+    box-shadow: 2px 2px 10px black;
+}
+.search_results{
+    margin-top: 2rem;
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: .5rem 4rem;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: .4rem;
+    box-shadow: 2px 2px 3px black;
+    transition: all .3s ease 0s;
+}
+
+.result:hover{
+    transform: scale(1.008);
+    box-shadow: 2px 2px 10px black;
+}
+
+.result_img{
+    height: 3rem;
+    width: 3rem;
+}
+.result_text{
+    font-family: "montserrat";
+    color: white;
+}
+.result_but{
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    font-family: "montserrat";
+    border: none;
+    box-shadow:1px 1px 1px white;
+}
+.result_but:hover{
+    transform: scale(1.01);
+    background : #DBBBF5;
+}

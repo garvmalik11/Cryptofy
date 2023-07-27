@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Mouse+Memoirs&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand&family=Roboto:wght@400;500&display=swap');
+
+.content_container{
+    display: flex;
+    font-family: "montserrat";
+
+}
+
+.content_img{
+    margin-top: 3rem;
+    height: 15rem;
+    width: 15rem;
+    padding: 2rem;
+
+}
+
+.content_info{
+    padding: 1rem 5rem;
+}
+
+.content_head{
+    font-size:4rem;
+    font-weight: 500;
+    color: #ffb703;
+    text-shadow: 4px 4px 8px black;
+}
+
+.sub_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+}
+
+.rates{
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #023047;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+    text-shadow: 4px 4px 8px black;
+    box-shadow: 4px 4px 8px black;
+    transition: all .3s ease 0s;
+}
+
+.rates:hover{
+    box-shadow: 4px 4px 10px black;
+    transform: scale(1.1);
+}
+
+.desc_head{
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-shadow:3px 3px 7px #cdb4db;
+}
+
+.description{
+    padding: 1rem 0rem;
+    text-align: justify;
+}
